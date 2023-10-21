@@ -12,7 +12,7 @@ const MealItemForm = () => {
         max:'5',
         defaultValue:'1'
       }}/>
-      <button>+ Add</button>
+      <button className={classes.button}>+ Add</button>
     </form>
   )
 }
